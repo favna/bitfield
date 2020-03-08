@@ -149,12 +149,12 @@ export class BitField<T extends BitFieldResolvable> implements BitFieldObject {
 	 * @param bit The bit/s to resolve
 	 */
 	public static resolve<T extends BitFieldResolvable>(bit?: T): number {
-		if (typeof bit === undefined) return 0;
+		if (typeof bit === 'undefined') return 0;
 		if (typeof bit === 'number' && bit >= 0) return bit;
 		if (bit instanceof BitField) return bit.bitfield;
 		if (Array.isArray(bit)) return (bit as (string | number | BitFieldObject)[]).map((byte) => this.resolve(byte)).reduce((bytes, byte) => bytes | byte, 0);
 		if (typeof bit === 'string') return this.FLAGS[bit];
-		throw new RangeError('An invalid bit was provided.');
+		throw new RangeError(`An invalid bit was provided. Received: ${typeof bit}`);
 	}
 
 }
