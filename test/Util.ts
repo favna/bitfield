@@ -128,6 +128,12 @@ ava('valueOf', (test): void => {
 	test.is(testBits.valueOf(), 3);
 });
 
+ava('Symbol.iterator', (test): void => {
+	const testBits = new TestBits(2);
+
+	for (const value of testBits) test.is(value, 'B');
+});
+
 ava('resolve', (test): void => {
 	test.is(TestBits.resolve<TestResolvable>(), 0);
 });
