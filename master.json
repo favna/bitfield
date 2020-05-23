@@ -7,7 +7,7 @@
 	"children": [
 		{
 			"id": 1,
-			"name": "\"index\"",
+			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -91,7 +91,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 17,
 									"character": 25
 								}
@@ -111,7 +111,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 17,
 									"character": 16
 								}
@@ -141,7 +141,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 138,
 									"character": 22
 								}
@@ -167,7 +167,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 133,
 									"character": 20
 								}
@@ -221,7 +221,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 143,
 									"character": 22
 								}
@@ -262,7 +262,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 126,
 									"character": 26
 								}
@@ -336,7 +336,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 67,
 									"character": 11
 								}
@@ -394,7 +394,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 28,
 									"character": 14
 								}
@@ -429,7 +429,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 59,
 									"character": 14
 								}
@@ -504,7 +504,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 38,
 									"character": 11
 								}
@@ -585,7 +585,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 50,
 									"character": 15
 								}
@@ -659,7 +659,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 80,
 									"character": 14
 								}
@@ -726,7 +726,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 93,
 									"character": 17
 								}
@@ -786,7 +786,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 104,
 									"character": 15
 								}
@@ -821,7 +821,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 112,
 									"character": 14
 								}
@@ -856,7 +856,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 119,
 									"character": 15
 								}
@@ -932,7 +932,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 151,
 									"character": 22
 								}
@@ -984,9 +984,16 @@
 					],
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 12,
 							"character": 21
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"id": 51,
+							"name": "TestBits"
 						}
 					],
 					"implementedTypes": [
@@ -1016,7 +1023,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 2,
 									"character": 9
 								}
@@ -1038,7 +1045,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 1,
 							"character": 31
 						}
@@ -1048,6 +1055,11 @@
 							"type": "reference",
 							"id": 4,
 							"name": "BitField"
+						},
+						{
+							"type": "reference",
+							"id": 51,
+							"name": "TestBits"
 						}
 					]
 				},
@@ -1061,7 +1073,7 @@
 					},
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 5,
 							"character": 30
 						}
@@ -1140,7 +1152,1210 @@
 			],
 			"sources": [
 				{
-					"fileName": "index.ts",
+					"fileName": "src/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 50,
+			"name": "\"test/Util\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/bitfield/bitfield/test/Util.ts",
+			"children": [
+				{
+					"id": 51,
+					"name": "TestBits",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 58,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 59,
+									"name": "new TestBits",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 60,
+											"name": "bits",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 51,
+										"name": "TestBits"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 7,
+										"name": "BitField.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 17,
+									"character": 25
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 7,
+								"name": "BitField.__constructor"
+							}
+						},
+						{
+							"id": 57,
+							"name": "bitfield",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true
+							},
+							"comment": {
+								"shortText": "The bitfield data"
+							},
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 17,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 6,
+								"name": "BitField.bitfield"
+							},
+							"implementationOf": {
+								"type": "reference",
+								"id": 3,
+								"name": "BitFieldObject.bitfield"
+							}
+						},
+						{
+							"id": 92,
+							"name": "DEFAULT",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true
+							},
+							"comment": {
+								"shortText": "The default flags for the bitfield"
+							},
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 138,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "0",
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 42,
+								"name": "BitField.DEFAULT"
+							}
+						},
+						{
+							"id": 52,
+							"name": "FLAGS",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true
+							},
+							"sources": [
+								{
+									"fileName": "test/Util.ts",
+									"line": 10,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 53,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 54,
+											"name": "A",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "test/Util.ts",
+													"line": 11,
+													"character": 3
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "1 << 0"
+										},
+										{
+											"id": 55,
+											"name": "B",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "test/Util.ts",
+													"line": 12,
+													"character": 3
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "1 << 1"
+										},
+										{
+											"id": 56,
+											"name": "C",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "test/Util.ts",
+													"line": 13,
+													"character": 3
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "1 << 2"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												54,
+												55,
+												56
+											]
+										}
+									]
+								}
+							},
+							"defaultValue": "{\n\t\tA: 1 << 0,\n\t\tB: 1 << 1,\n\t\tC: 1 << 2\n\t} as const",
+							"overwrites": {
+								"type": "reference",
+								"id": 41,
+								"name": "BitField.FLAGS"
+							}
+						},
+						{
+							"id": 93,
+							"name": "ALL",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true
+							},
+							"comment": {
+								"shortText": "The value of all bits in this bitfield"
+							},
+							"getSignature": [
+								{
+									"id": 94,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {},
+									"comment": {
+										"shortText": "The value of all bits in this bitfield"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 43,
+										"name": "BitField.ALL"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 143,
+									"character": 22
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 43,
+								"name": "BitField.ALL"
+							}
+						},
+						{
+							"id": 90,
+							"name": "[Symbol.iterator]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 91,
+									"name": "[Symbol.iterator]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Defines iterable behavior for BitFields"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 39,
+										"name": "BitField.[Symbol.iterator]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 126,
+									"character": 26
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 39,
+								"name": "BitField.[Symbol.iterator]"
+							}
+						},
+						{
+							"id": 74,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 75,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Adds a bit to this BitField or a new Bitfield if this is frozen"
+									},
+									"parameters": [
+										{
+											"id": 76,
+											"name": "bits",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"comment": {
+												"text": "The bit/s to add\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"id": 99,
+													"name": "TestResolvable"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 4,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										],
+										"name": "BitField"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 23,
+										"name": "BitField.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 67,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 23,
+								"name": "BitField.add"
+							}
+						},
+						{
+							"id": 61,
+							"name": "equals",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 62,
+									"name": "equals",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Checks if this BitField matches another bitfield resolvable"
+									},
+									"parameters": [
+										{
+											"id": 63,
+											"name": "bit",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "The bit/s to check\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 10,
+										"name": "BitField.equals"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 28,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 10,
+								"name": "BitField.equals"
+							}
+						},
+						{
+							"id": 72,
+							"name": "freeze",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 73,
+									"name": "freeze",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Freezes this BitField"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 21,
+										"name": "BitField.freeze"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 59,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 21,
+								"name": "BitField.freeze"
+							}
+						},
+						{
+							"id": 64,
+							"name": "has",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 65,
+									"name": "has",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Checks if this BitField has a bit or bits"
+									},
+									"parameters": [
+										{
+											"id": 66,
+											"name": "bit",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "The bit/s to check"
+											},
+											"type": {
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										},
+										{
+											"id": 67,
+											"name": "hasParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 13,
+										"name": "BitField.has"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 38,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 13,
+								"name": "BitField.has"
+							}
+						},
+						{
+							"id": 68,
+							"name": "missing",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 69,
+									"name": "missing",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Returns any bits this BitField is missing"
+									},
+									"parameters": [
+										{
+											"id": 70,
+											"name": "bits",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "The bit/s to check for"
+											},
+											"type": {
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										},
+										{
+											"id": 71,
+											"name": "hasParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional params to pass to child has methods\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "BitField.missing"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 50,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "BitField.missing"
+							}
+						},
+						{
+							"id": 77,
+							"name": "remove",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 78,
+									"name": "remove",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Removes a bit to this BitField or a new Bitfield if this is frozen"
+									},
+									"parameters": [
+										{
+											"id": 79,
+											"name": "bits",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"comment": {
+												"text": "The bit/s to remove\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"id": 99,
+													"name": "TestResolvable"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 4,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 99,
+												"name": "TestResolvable"
+											}
+										],
+										"name": "BitField"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 26,
+										"name": "BitField.remove"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 80,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 26,
+								"name": "BitField.remove"
+							}
+						},
+						{
+							"id": 80,
+							"name": "serialize",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 81,
+									"name": "serialize",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Returns an object of flags: boolean"
+									},
+									"parameters": [
+										{
+											"id": 82,
+											"name": "hasParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional params to pass to child has methods\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										],
+										"name": "Record"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 29,
+										"name": "BitField.serialize"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 93,
+									"character": 17
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 29,
+								"name": "BitField.serialize"
+							}
+						},
+						{
+							"id": 83,
+							"name": "toArray",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 84,
+									"name": "toArray",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Returns an array of Flags that make up this BitField"
+									},
+									"parameters": [
+										{
+											"id": 85,
+											"name": "hasParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional params to pass to child has methods\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 32,
+										"name": "BitField.toArray"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 104,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 32,
+								"name": "BitField.toArray"
+							}
+						},
+						{
+							"id": 86,
+							"name": "toJSON",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 87,
+									"name": "toJSON",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Defines what this Bitfield is when converted to JSON"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 35,
+										"name": "BitField.toJSON"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 112,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 35,
+								"name": "BitField.toJSON"
+							}
+						},
+						{
+							"id": 88,
+							"name": "valueOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"signatures": [
+								{
+									"id": 89,
+									"name": "valueOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Defines value behavior of this BitField"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 37,
+										"name": "BitField.valueOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 119,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 37,
+								"name": "BitField.valueOf"
+							}
+						},
+						{
+							"id": 95,
+							"name": "resolve",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true
+							},
+							"signatures": [
+								{
+									"id": 96,
+									"name": "resolve",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Resolves a BitFieldResolvable into a number"
+									},
+									"typeParameter": [
+										{
+											"id": 97,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 49,
+												"name": "BitFieldResolvable"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 98,
+											"name": "bit",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The bit/s to resolve\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "T",
+												"constraint": {
+													"type": "reference",
+													"id": 49,
+													"name": "BitFieldResolvable"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 45,
+										"name": "BitField.resolve"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 151,
+									"character": 22
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 45,
+								"name": "BitField.resolve"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								58
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								57,
+								92,
+								52
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								93
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								90,
+								74,
+								61,
+								72,
+								64,
+								68,
+								77,
+								80,
+								83,
+								86,
+								88,
+								95
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test/Util.ts",
+							"line": 8,
+							"character": 14
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 4,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"id": 99,
+									"name": "TestResolvable"
+								}
+							],
+							"name": "BitField"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"id": 2,
+							"name": "BitFieldObject"
+						}
+					]
+				},
+				{
+					"id": 99,
+					"name": "TestResolvable",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "test/Util.ts",
+							"line": 4,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "typeOperator",
+								"operator": "keyof",
+								"target": {
+									"type": "query",
+									"queryType": {
+										"type": "reference",
+										"id": 52,
+										"name": "FLAGS"
+									}
+								}
+							},
+							{
+								"type": "intrinsic",
+								"name": "number"
+							},
+							{
+								"type": "reference",
+								"id": 2,
+								"name": "BitFieldObject"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "union",
+									"types": [
+										{
+											"type": "intrinsic",
+											"name": "number"
+										},
+										{
+											"type": "reference",
+											"id": 2,
+											"name": "BitFieldObject"
+										},
+										{
+											"type": "stringLiteral",
+											"value": "A"
+										},
+										{
+											"type": "stringLiteral",
+											"value": "B"
+										},
+										{
+											"type": "stringLiteral",
+											"value": "C"
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						51
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						99
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "test/Util.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -1152,7 +2367,8 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1
+				1,
+				50
 			]
 		}
 	]
